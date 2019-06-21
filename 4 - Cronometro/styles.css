@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+
+.corpo{
+    margin-top: 20%;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.button1 {
+    background-color: #008CBA;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    border: solid;
+}

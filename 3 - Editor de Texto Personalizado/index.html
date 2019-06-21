@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Editor de Texto Personalizado</title>
+        <link href="styles.css" rel="stylesheet" type="text/css">
+        <script src="javascript.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">
+                <p>Insira um Texto</p>
+                <textarea id="frase" name="campodetexto"></textarea>
+                <br><br>
+                <input type="submit" value="Maisculo" onclick="maiusculo()">
+                <input type="submit" value="Minusculo" onclick="minusculo()">
+                <input type="submit" value="Quantidade de Caracteres" onclick="ContarCaracters()">
+                <input type="submit" value="Quantidade de Palavras" onclick="ContarPalavras()">
+                <input type="submit" value="Quantidade de Linhas">
+                <p>Resultado</p>
+                <textarea id="modificado"></textarea>
+            </div>
+        </div>
+    </body>
+</html>
