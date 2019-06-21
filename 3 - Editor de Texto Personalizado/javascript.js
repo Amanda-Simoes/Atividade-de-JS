@@ -19,3 +19,17 @@ function ContarPalavras(){
     var total = dividir.length;
     document.getElementById("modificado").value = total;
 }
+function Linhas(){
+    var frase = document.getElementById("frase").value;
+    var caractere = 21;
+    var cont = 1;
+    var control = 1;
+    for(i=1;i<frase.length;i++){
+        if(control == caractere){
+            cont ++;
+            control = 1;
+        }
+        control++;
+    }
+    document.getElementById("modificado").value = cont;
+}
